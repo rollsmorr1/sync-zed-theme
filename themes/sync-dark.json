@@ -1,0 +1,270 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Sync Dark",
+  "author": "Royce Moroch <morochroyce@gmail.com>",
+  "themes": [
+    {
+      "name": "Sync Dark",
+      "appearance": "dark",
+      "style": {
+        "border": "#161616", // Radix Slate 11 (used for borders)
+        "border.variant": "#121212", // Radix Slate 10 (used for border variants)
+        "elevated_surface.background": "#000000", // Radix Slate 1 (used for elevated surface background)
+        "surface.background": "#000000", // Radix Slate 1 (used for surface background)
+        "background": "#000000", // Radix Slate 1 (used for general background)
+        "element.background": "#1C1C1E", // Radix Slate 8 (used for elements background)
+        "element.hover": "#2C2C2E", // Radix Slate 9 (used for hover state of elements)
+        "element.active": "#3A3A3C", // Radix Slate 10 (used for active state of elements)
+        "element.selected": "#3A3A3C", // Radix Slate 10 (used for selected state of elements)
+        "element.disabled": "#1C1C1E", // Radix Slate 8 (used for disabled state of elements)
+        "drop_target.background": "#4A4A4E", // Radix Slate 11 (used for drop targets)
+        "ghost_element.background": "#00000000", // Transparent (used for ghost elements background)
+        "ghost_element.hover": "#1C1C1E", // Radix Slate 8 (used for hover state of ghost elements)
+        "ghost_element.active": "#2C2C2E", // Radix Slate 9 (used for active state of ghost elements)
+        "ghost_element.selected": "#2C2C2E", // Radix Slate 9 (used for selected state of ghost elements)
+        "ghost_element.disabled": "#1C1C1E", // Radix Slate 8 (used for disabled state of ghost elements)
+        "text": "#E4E4E7", // Radix Slate 12 (used for general text)
+        "text.muted": "#78716C", // Radix Slate 7 (used for muted text)
+        "text.placeholder": "#6B7280", // Radix Slate 8 (used for placeholder text)
+        "text.disabled": "#4B5563", // Radix Slate 6 (used for disabled text)
+        "text.accent": "#3B82F6", // Radix Blue 10 (used for accent text)
+        "status_bar.background": "#000000", // Radix Slate 1 (used for status bar background)
+        "title_bar.background": "#000000", // Radix Slate 1 (used for title bar background)
+        "toolbar.background": "#000000", // Radix Slate 1 (used for toolbar background)
+        "tab_bar.background": "#000000", // Radix Slate 1 (used for tab bar background)
+        "tab.inactive_background": "#000000", // Radix Slate 1 (used for inactive tab background)
+        "tab.active_background": "#000000", // Radix Slate 1 (used for active tab background)
+        "search.match_background": "#475569", // Radix Slate 10 (used for search match background)
+        "panel.background": "#1A1A1A", // Radix Slate 8 (used for panel background)
+        "scrollbar.thumb.border": "#00000000", // Transparent (used for scrollbar thumb border)
+        "scrollbar.thumb.hover_background": "#3F3F46", // Radix Slate 11 (used for scrollbar thumb hover background)
+        "scrollbar.track.background": "#00000000", // Transparent (used for scrollbar track background)
+        "scrollbar.track.border": "#242222", // Radix Slate 7 (used for scrollbar track border)
+        "scrollbar_thumb.background": "#222222", // Radix Slate 12 (used for scrollbar thumb background)
+        "editor.foreground": "#E4E4E7", // Radix Slate 12 (used for editor foreground)
+        "editor.background": "#000000", // Radix Slate 1 (used for editor background)
+        "editor.gutter.background": "#000000", // Radix Slate 1 (used for editor gutter background)
+        "editor.active_line.background": "#121212", // Radix Slate 10 (used for active line background in editor)
+        "editor.line_number": "#4A4A4E", // Radix Slate 11 (used for line numbers in editor)
+        "editor.active_line_number": "#E4E4E7", // Radix Slate 12 (used for active line number in editor)
+        "editor.invisible": "#3F3F46", // Radix Slate 11 (used for invisible characters in editor)
+        "editor.document_highlight.read_background": "#111111", // Radix Gray 1 (used for document highlight background in editor)
+        "editor.subheader.background": "#000000", // Radix Slate 1 (used for editor subheader background)
+        "terminal.background": "#000000", // Radix Slate 1 (used for terminal background)
+        "terminal.foreground": "#E4E4E7", // Radix Slate 12 (used for terminal foreground)
+        "terminal.ansi.black": "#000000", // Radix Slate 1 (used for ANSI black color in terminal)
+        "terminal.ansi.bright_black": "#4B5563", // Radix Slate 6 (used for ANSI bright black color in terminal)
+        "terminal.ansi.dim_black": "#000000", // Radix Slate 1 (used for ANSI dim black color in terminal)
+        "terminal.ansi.red": "#F87171", // Radix Red 10 (used for ANSI red color in terminal)
+        "terminal.ansi.bright_red": "#EF4444", // Radix Red 9 (used for ANSI bright red color in terminal)
+        "terminal.ansi.dim_red": "#FCA5A5", // Radix Red 7 (used for ANSI dim red color in terminal)
+        "terminal.ansi.green": "#34D399", // Radix Green 10 (used for ANSI green color in terminal)
+        "terminal.ansi.bright_green": "#10B981", // Radix Green 9 (used for ANSI bright green color in terminal)
+        "terminal.ansi.dim_green": "#6EE7B7", // Radix Green 7 (used for ANSI dim green color in terminal)
+        "terminal.ansi.yellow": "#FBBF24", // Radix Yellow 10 (used for ANSI yellow color in terminal)
+        "terminal.ansi.bright_yellow": "#F59E0B", // Radix Yellow 9 (used for ANSI bright yellow color in terminal)
+        "terminal.ansi.dim_yellow": "#FDE68A", // Radix Yellow 7 (used for ANSI dim yellow color in terminal)
+        "terminal.ansi.blue": "#60A5FA", // Radix Blue 10 (used for ANSI blue color in terminal)
+        "terminal.ansi.bright_blue": "#3B82F6", // Radix Blue 9 (used for ANSI bright blue color in terminal)
+        "terminal.ansi.dim_blue": "#93C5FD", // Radix Blue 7 (used for ANSI dim blue color in terminal)
+        "terminal.ansi.magenta": "#EC4899", // Radix Pink 9 (used for ANSI magenta color in terminal)
+        "terminal.ansi.bright_magenta": "#DB2777", // Radix Pink 10 (used for ANSI bright magenta color in terminal)
+        "terminal.ansi.dim_magenta": "#F9A8D4", // Radix Pink 7 (used for ANSI dim magenta color in terminal)
+        "terminal.ansi.cyan": "#67E8F9", // Radix Cyan 10 (used for ANSI cyan color in terminal)
+        "terminal.ansi.bright_cyan": "#22D3EE", // Radix Cyan 9 (used for ANSI bright cyan color in terminal)
+        "terminal.ansi.dim_cyan": "#A5F3FC", // Radix Cyan 7 (used for ANSI dim cyan color in terminal)
+        "terminal.ansi.white": "#E4E4E7", // Radix Slate 12 (used for ANSI white color in terminal)
+        "terminal.ansi.bright_white": "#E4E4E7", // Radix Slate 12 (used for ANSI bright white color in terminal)
+        "terminal.ansi.dim_white": "#78716C", // Radix Slate 7 (used for ANSI dim white color in terminal)
+        "conflict": "#F87171", // Radix Red 10 (used for conflict indication)
+        "conflict.background": "#3B1219", // Radix Red 11 (used for conflict background)
+        "conflict.border": "#EF4444", // Radix Red 9 (used for conflict border)
+        "created": "#34D399", // Radix Green 10 (used for created indication)
+        "created.background": "#1C1C1E", // Radix Green 11 (used for created background)
+        "created.border": "#10B981", // Radix Green 9 (used for created border)
+        "deleted": "#F87171", // Radix Red 10 (used for deleted indication)
+        "deleted.background": "#3B1219", // Radix Red 11 (used for deleted background)
+        "deleted.border": "#EF4444", // Radix Red 9 (used for deleted border)
+        "error": "#F87171", // Radix Red 10 (used for error indication)
+        "error.background": "#3B1219", // Radix Red 11 (used for error background)
+        "error.border": "#EF4444", // Radix Red 9 (used for error border)
+        "hint": "#78716C", // Radix Slate 7 (used for hints)
+        "hint.background": "#1C1C1E", // Radix Slate 8 (used for hint background)
+        "hint.border": "#4A4A4E", // Radix Slate 11 (used for hint border)
+        "info": "#60A5FA", // Radix Blue 10 (used for informational messages)
+        "info.background": "#0A161C", // Radix Blue 11 (used for info background)
+        "info.border": "#3B82F6", // Radix Blue 9 (used for info border)
+        "modified": "#D1D5DB", // Radix Slate 4 (used for modified indication)
+        "modified.background": "#181101", // Radix Amber 11 (used for modified background)
+        "modified.border": "#33280D", // Radix Amber 12 (used for modified border)
+        "predictive": "#4A4A4E", // Radix Slate 11 (used for predictive text)
+        "predictive.background": "#1C1C1E", // Radix Slate 8 (used for predictive background)
+        "predictive.border": "#2C2C2E", // Radix Slate 9 (used for predictive border)
+        "renamed": "#22D3EE", // Radix Cyan 9 (used for renamed indication)
+        "renamed.background": "#0B1716", // Radix Cyan 11 (used for renamed background)
+        "renamed.border": "#213434", // Radix Cyan 12 (used for renamed border)
+        "success": "#34D399", // Radix Green 10 (used for success indication)
+        "success.background": "#1C1C1E", // Radix Green 11 (used for success background)
+        "success.border": "#10B981", // Radix Green 9 (used for success border)
+        "warning": "#FBBF24", // Radix Yellow 10 (used for warnings)
+        "warning.background": "#302008", // Radix Yellow 11 (used for warning background)
+        "warning.border": "#5C3D05", // Radix Yellow 12 (used for warning border)
+        "players": [
+          {
+            "cursor": "#60A5FA", // Radix Blue 10 (player 1 cursor)
+            "selection": "#4A4A4E" // Radix Slate 11 (player 1 selection)
+          },
+          {
+            "cursor": "#C084FC", // Radix Purple 10 (player 2 cursor)
+            "selection": "#4A4A4E" // Radix Slate 11 (player 2 selection)
+          },
+          {
+            "cursor": "#F472B6", // Radix Pink 10 (player 3 cursor)
+            "selection": "#4A4A4E" // Radix Slate 11 (player 3 selection)
+          },
+          {
+            "cursor": "#EF4444", // Radix Red 9 (player 4 cursor)
+            "selection": "#4A4A4E" // Radix Slate 11 (player 4 selection)
+          },
+          {
+            "cursor": "#FB923C", // Radix Orange 9 (player 5 cursor)
+            "selection": "#4A4A4E" // Radix Slate 11 (player 5 selection)
+          },
+          {
+            "cursor": "#FBBF24", // Radix Yellow 10 (player 6 cursor)
+            "selection": "#4A4A4E" // Radix Slate 11 (player 6 selection)
+          },
+          {
+            "cursor": "#34D399", // Radix Green 10 (player 7 cursor)
+            "selection": "#4A4A4E" // Radix Slate 11 (player 7 selection)
+          },
+          {
+            "cursor": "#9CA3AF", // Radix Slate 8 (player 8 cursor)
+            "selection": "#4A4A4E" // Radix Slate 11 (player 8 selection)
+          }
+        ],
+        "syntax": {
+          "attribute": {
+            "color": "#60A5FA", // Radix Blue 10 (used for attributes)
+            "font_weight": 400
+          },
+          "boolean": {
+            "color": "#F472B6", // Radix Pink 10 (used for booleans)
+            "font_weight": 400
+          },
+          "comment": {
+            "color": "#9CA3AF", // Radix Slate 8 (used for comments)
+            "font_weight": 400
+          },
+          "comment.doc": {
+            "color": "#9CA3AF" // Radix Slate 8 (used for doc comments)
+          },
+          "constant": {
+            "color": "#F472B6", // Radix Pink 10 (used for constants)
+            "font_weight": 400
+          },
+          "constructor": {
+            "color": "#6EE7B7", // Radix Green 7 (used for constructors)
+            "font_weight": 400
+          },
+          "enum": {
+            "color": "#6EE7B7", // Radix Green 7 (used for enums)
+            "font_weight": 400
+          },
+          "emphasis": {
+            "color": "#60A5FA", // Radix Blue 10 (used for emphasis)
+            "font_style": "italic"
+          },
+          "emphasis.strong": {
+            "color": "#60A5FA", // Radix Blue 10 (used for strong emphasis)
+            "font_weight": 700
+          },
+          "function": {
+            "color": "#6EE7B7", // Radix Green 7 (used for functions)
+            "font_weight": 400
+          },
+          "keyword": {
+            "color": "#F472B6", // Radix Pink 10 (used for keywords)
+            "font_weight": 400
+          },
+          "label": {
+            "color": "#3DD68C", // Radix Green 10 (used for labels)
+            "font_weight": 700
+          },
+          "link.text": {
+            "color": "#3B82F6", // Radix Blue 9 (used for link text)
+            "font_weight": 400
+          },
+          "link.uri": {
+            "color": "#3B82F6", // Radix Blue 9 (used for link URIs)
+            "font_weight": 400
+          },
+          "link_text": {
+            "color": "#3DD68C", // Radix Green 10 (used for link text)
+            "font_weight": 400
+          },
+          "link_uri": {
+            "color": "#3B82F6", // Radix Blue 9 (used for link URIs)
+            "font_weight": 400
+          },
+          "number": {
+            "color": "#3B82F6", // Radix Blue 9 (used for numbers)
+            "font_weight": 400
+          },
+          "operator": {
+            "color": "#E4E4E7", // Radix Slate 12 (used for operators)
+            "font_weight": 400
+          },
+          "preproc": {
+            "color": "#F472B6", // Radix Pink 10 (used for preprocessor directives)
+            "font_weight": 400
+          },
+          "property": {
+            "color": "#F472B6", // Radix Pink 10 (used for properties)
+            "font_weight": 400
+          },
+          "punctuation.bracket": {
+            "color": "#E4E4E7", // Radix Slate 12 (used for brackets)
+            "font_weight": 400
+          },
+          "punctuation.list_marker": {
+            "color": "#60A5FA", // Radix Blue 10 (used for list markers)
+            "font_weight": 400
+          },
+          "string": {
+            "color": "#34D399", // Radix Green 10 (used for strings)
+            "font_weight": 400
+          },
+          "string.special": {
+            "color": "#FBBF24", // Radix Yellow 10 (used for special strings)
+            "font_weight": 400
+          },
+          "string.special.symbol": {
+            "color": "#C084FC", // Radix Purple 10 (used for special string symbols)
+            "font_weight": 400
+          },
+          "tag": {
+            "color": "#F472B6", // Radix Pink 10 (used for tags)
+            "font_weight": 400
+          },
+          "text.literal": {
+            "color": "#FBBF24", // Radix Yellow 10 (used for literal text)
+            "font_weight": 400
+          },
+          "title": {
+            "color": "#C084FC", // Radix Purple 10 (used for titles)
+            "font_weight": 700
+          },
+          "type": {
+            "color": "#3B82F6", // Radix Blue 9 (used for types)
+            "font_weight": 500
+          },
+          "variable": {
+            "color": "#E4E4E7", // Radix Slate 12 (used for variables)
+            "font_weight": 400
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+id = "sync-dark"
+name = "Sync Dark"
+version = "1.0.0"
+schema_version = 0
+description = "A minimal dark mode theme for Zen."
+repository = "https://github.com/rollsmorr1/zed-sync-theme"
+authors = ["Royce Moroch <morochroyce@gmail.com>"]
+themes = ["themes/sync-dark.json"]
+languages = []
+
+[lib]
+
+[grammars]
+
+[language_servers]
