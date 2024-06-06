@@ -2,4 +2,4 @@
 A dark-minimalistic theme based on Radix Color System for Zed.
 
 ## Preview
-<img width="1800" alt="image" src="https://github.com/rollsmorr1/sync-zed-theme/assets/55561695/93673879-57e3-4cd4-b253-49f01b37cada">
+![586shots_so](https://github.com/rollsmorr1/sync-zed-theme/assets/55561695/cf281515-5e78-4321-81cb-be2106aff881)
